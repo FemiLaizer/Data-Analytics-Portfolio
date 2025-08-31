@@ -8,12 +8,3 @@ I’m building my career in **Data Analysis**, with a focus on **Excel, Power BI
 ---
 
 👉 Feel free to **explore, fork, or connect** with me if you’d like to collaborate!
-
-## 🗄️ SQL Queries
-- Top 5 customers by revenue.  
-- Sales per region.  
-- Average order value.  
-- Highest-selling category.  
-- Orders per month.
-
-
