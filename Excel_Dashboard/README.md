@@ -9,8 +9,7 @@ This repo is where I showcase my data analysis and visualization work using **Mi
 
 **File:** `Customer_Complaints_Dashboard.xlsx`
 - [Screenshot here].
-- <img width="1869" height="736" alt="image" src="https://github.com/user-attachments/assets/563f1f62-1cd3-4571-b71f-5ccfe923a857" />
-
+- ![alt text](image.png)
 
 **Overview:**
 This dashboard analyzes **customer escalation cases** across different regions and teams. It helps management monitor **issue status, priority, escalation trends, and team performance.**
@@ -25,7 +24,7 @@ This dashboard analyzes **customer escalation cases** across different regions a
 * ✅ Escalation by team
 
 **Use Case:**
-Ideal for **customer support teams** and **operations managers** to track unresolved issues and allocate resources effectively.
+Ideal for **customer support teams** and **operations managers** to track unresolved issues and allocate resources effectively. It shows the turn around time for resolution, team efficeincy and service delivery towards improving customer satisfaction.
 
 ---
 
