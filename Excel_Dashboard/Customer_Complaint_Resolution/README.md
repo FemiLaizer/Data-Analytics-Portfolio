@@ -4,6 +4,16 @@
 
 ### 1. Customers' Escalation Dashboard
 
+## Problem
+The business needed visibility into customer escalations — status, priority, and resolution timelines — to improve service delivery and team efficiency.
+
+## Action
+Built an Excel dashboard to clean, track, and visualize escalation data with KPIs, charts, and slicers (team, location, priority).
+
+## Result
+Managers can quickly identify bottlenecks, monitor resolution time, and focus on the top categories driving customer dissatisfaction.
+
+
 **File:** `Customer_Complaints_Dashboard.xlsx`
 - [Screenshot here].
 - ![alt text](image-1.png)
