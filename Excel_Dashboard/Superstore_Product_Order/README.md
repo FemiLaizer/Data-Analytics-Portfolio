@@ -23,11 +23,11 @@ The dashboard provides executives and sales teams with actionable insights to:
 - Pinpoint areas to **increase profitability and optimize sales strategy**.  
 
 **File:** `Superstore_Customers_Products_Orders.xlsx`
-- ![alt text](image-2.png)
+- ![alt text](image-1.png)
 
 ---
 
-## 📊 Sales Dashboard (Excel)
+### 📊 Sales Dashboard (Excel)
 - Cleaned sales dataset using Power Query.  
 - Created PivotTables & interactive dashboard with slicers.  
 - [Screenshot here].
