@@ -16,11 +16,15 @@ It demonstrates how to query customer accounts, orders, sales reps, and regions 
 - SQL: `SELECT * FROM accounts LIMIT 10;`
 - Result: Sample of 10 customers (see `day1_results/first_10_customers.csv`)
 
-**3. Distinct Regions**
-- SQL: `SELECT DISTINCT region FROM accounts;`
-- Result: 4 unique regions (see `day1_results/regions.csv`)
+**4. Distinct Regions**
+- SQL: `SELECT region, joining sales_reps FROM accounts;`
+- Result: showing accounts id, account names, sales reps and their regions (see `day1_results/accounts_sales_reps_region.csv`)
 
-**4. Top 5 Sales Reps by Orders**
+**4. Distinct Regions**
+- SQL: `SELECT DISTINCT region, join sales_reps table using Foreign key and primary key FROM accounts;`
+- Result: 4 unique regions (see `day1_results/unique_region_names.csv`)
+
+**5. Top 5 Sales Reps by Orders**
 - SQL: Query joining `sales_reps`, `accounts`, `orders`
 - Result: Top performers ranked by total orders (see `day1_results/top_5_salesreps.csv`)
 
