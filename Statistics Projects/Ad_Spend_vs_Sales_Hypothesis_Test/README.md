@@ -68,9 +68,9 @@ Monthly advertising spend and sales figures were split into **Low Spend (< 3000)
 
 ---
 ### Regression_Insight
-![alt text](image1.png)
+![alt text](Regression_Insight.png)
 
 ### Hypothesis_Test_Insight
-![alt text](image2.png)
+![alt text](Hypothesis_Test_Insight.png)
 
 ---
