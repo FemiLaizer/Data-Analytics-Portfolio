@@ -16,7 +16,7 @@ Managers can quickly identify bottlenecks, monitor resolution time, and focus on
 
 **File:** `Customer_Complaints_Dashboard.xlsx`
 - [Screenshot here].
-- ![alt text](image-1.png)
+- ![alt text](Customer_Complaints_Dashboard.png)
 
 **Overview:**
 This dashboard analyzes **customer escalation cases** across different regions and teams. It helps management monitor **issue status, priority, escalation trends, and team performance.**
