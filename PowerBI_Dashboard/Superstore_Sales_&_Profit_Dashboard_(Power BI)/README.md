@@ -1,7 +1,3 @@
-Great ✅ — here’s the **final polished README** with added *analyst-style insights* so it looks like a real business delivery:
-
----
-
 # Power BI Dashboard – Superstore Sales Performance
 
 ## 📊 Project Overview
