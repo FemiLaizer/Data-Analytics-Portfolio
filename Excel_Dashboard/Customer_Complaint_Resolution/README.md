@@ -1,36 +1,40 @@
-# Excel Dashboards Portfolio
-
-## Project
-
-### 1. Customers' Escalation Dashboard
+# Customers' Escalation Dashboard
 
 ## Problem
-The business needed visibility into customer escalations — status, priority, and resolution timelines — to improve service delivery and team efficiency.
+The business lacked clear visibility into customer escalations, resolution speed, and recurring issue categories. Management needed a consolidated view to prioritize resources and reduce time-to-resolution.
 
 ## Action
-Built an Excel dashboard to clean, track, and visualize escalation data with KPIs, charts, and slicers (team, location, priority).
+- Cleaned and standardized escalation data (Power Query: fixed dates, removed duplicates, standardized priority/status values).
+- Built an interactive Excel dashboard with KPI cards, PivotCharts and slicers for Location, Priority, Team and Ageing.
+- Calculated key metrics: total received, resolved, unresolved, average resolution time, and high-priority counts.
 
-## Result
-Managers can quickly identify bottlenecks, monitor resolution time, and focus on the top categories driving customer dissatisfaction.
+## Key Metrics (dashboard values)
+- **Total Received:** 975  
+- **Total Resolved:** 520 (53%)  
+- **Total Unresolved:** 455 (47%)  
+- **Top Complaint Category:** FAULTY EQUIPMENT (372 cases)  
+- **High Priority (Received / Resolved / Unresolved):** 185 / 95 / 90  
+- **Average Resolution Time:** 20.9 days
 
+## Key Insights (what management should act on)
+- **High volume from Faulty Equipment** (372 cases) — invest in product QA or rapid replacement/repair program to reduce repeat complaints.
+- **Resolution rate is 53%** — nearly half still unresolved; consider staffing reallocation or escalation workflow improvements.
+- **Average resolution time (20.9 days)** is long — set SLA targets (e.g., reduce to ≤14 days) and monitor weekly.
+- **High-priority unresolved cases (~90)** require immediate triage — create a fast-track process to avoid churn.
 
-**File:** `Customer_Complaints_Dashboard.xlsx`
+## Recommended Next Steps
+1. Create a focused task force to address Faulty Equipment root causes.  
+2. Implement SLAs and weekly tracking for unresolved cases >14 days.  
+3. Use dashboard filters to monitor team performance and assign resources to top 10 customers/locations causing most escalations.
+
+## Files
+- `Customer_Complaints_Dashboard.xlsx` — interactive workbook.  
+- `Customer_Complaints_Dashboard.png` — preview image.
 - [Screenshot here].
 - ![alt text](Customer_Complaints_Dashboard.png)
 
-**Overview:**
-This dashboard analyzes **customer escalation cases** across different regions and teams. It helps management monitor **issue status, priority, escalation trends, and team performance.**
-
-**Key Insights Displayed:**
-
-* ✅ Escalation status (In Progress, Open, Pending)
-* ✅ Escalation by priority (High, Medium, Low)
-* ✅ Top 5 categories of issues
-* ✅ Escalation days analysis (aging trends)
-* ✅ Priority breakdown by location
-* ✅ Escalation by team
-
-**Use Case:**
-Ideal for **customer support teams** and **operations managers** to track unresolved issues and allocate resources effectively. It shows the turn around time for resolution, team efficeincy and service delivery towards improving customer satisfaction.
-
----
+## Skills Demonstrated
+- Data cleaning & transformation (Power Query)  
+- PivotTables & PivotCharts  
+- KPI design & dashboard layout  
+- Data storytelling & actionable insight generation
