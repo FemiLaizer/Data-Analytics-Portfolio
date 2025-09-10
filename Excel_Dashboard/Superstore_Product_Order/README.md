@@ -30,7 +30,7 @@ The dashboard provides executives and sales teams with actionable insights to:
 - Cleaned sales dataset using Power Query.  
 - Created PivotTables & interactive dashboard with slicers.  
 - [Screenshot here].
-- ![alt text](image-2.png)
+- ![alt text](Superstore_Customers_Products_Orders.png)
 
 ---
 
