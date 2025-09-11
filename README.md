@@ -17,7 +17,7 @@ I’m building my career in **Data Analysis**, with a focus on **Excel, Power BI
 - [Parch & Posey SQL Analysis](SQL_Queries/Parch_Posey/README.md)
 
   ### • Power BI Project 
-- [Superstore_Sales_&_Profit_Dashboard_(Power BI)](Superstore_Sales_&_Profit_Dashboard_(Power BI)/README.md) 
+- [Superstore_Sales_&_Profit_Dashboard_(Power BI)](PowerBI_Dashboard/Superstore_Sales_&_Profit_Dashboard/README.md) 
 
 ---
 
