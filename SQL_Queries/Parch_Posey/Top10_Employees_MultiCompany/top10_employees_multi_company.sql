@@ -1,12 +1,13 @@
--- Provide employees that worked with more than one company
--- Show the top 10 employee with the highest number of order
-select a.primary_poc as employee_name,
-count(distinct(a.name)) as company_count,
-sum(o.total) as total_sales
+-- Find the average quantity and average amount spent by each company on each paper
+select a.name as company_name,
+round(avg(o.standard_qty), 2) as avg_standard_paper,
+case when round(avg(o.standard_amt_usd), 2) > 2000 then round(avg(o.standard_amt_usd), 2) else 0 end as avg_standard_amt,
+round(avg(o.gloss_qty), 2) as avg_gloss_paper,
+round(avg(o.gloss_amt_usd), 2) as avg_gloss_amt,
+round(avg(o.poster_qty), 2) as avg_poster_paper,
+round(avg(o.poster_amt_usd), 2) as avg_poster_amt
 from accounts a
 join orders o
 on a.id = o.account_id
-group by employee_name
-having count(distinct(a.name)) > 1
-order by total_sales desc
-limit 10;
+group by a.name
+order by a.name
